@@ -11,11 +11,11 @@ var auth = new SingleUserAuthorizer
     CredentialStore = new InMemoryCredentialStore()
     {
         // Consumer Keys
-        ConsumerKey = "Z0UDbzJZs7UdTVroPbeKiRViy",
-        ConsumerSecret = "R1eJLtBGBlatkJPucHEqPZndEESnwAVXxCkMaZMXqV25p79WFg",
+        ConsumerKey = "TBD",
+        ConsumerSecret = "TBD",
         // Access Token and Secret
-        OAuthToken = "568833316-WIqzPqd5taATn68sV9tdZLAK4loGIexNBqCr6nja",
-        OAuthTokenSecret = "qbFjUCpAaocWoBMtuHl4P160A3CHbuzW9qTzaDmFxAASX"
+        OAuthToken = "TBD",
+        OAuthTokenSecret = "TBD"
     }
 };
 var twitterCtx = new TwitterContext(auth);
